@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-11-09T09:47:56.198831+00:00",
+  "model": "mini",
+  "note": "Synthetic cases only, no database writes. A small sample is not a universal guarantee.",
+  "checks": [
+    {
+      "case": "slovak_review",
+      "passed": true
+    },
+    {
+      "case": "spoken_date",
+      "passed": true
+    },
+    {
+      "case": "without_diacritics",
+      "passed": true
+    },
+    {
+      "case": "czech_review",
+      "passed": true
+    },
+    {
+      "case": "two_different_dates",
+      "passed": true
+    },
+    {
+      "case": "event_date_only",
+      "passed": true
+    },
+    {
+      "case": "ambiguous_date",
+      "passed": true
+    },
+    {
+      "case": "scope_refusal",
+      "passed": true
+    }
+  ]
+}

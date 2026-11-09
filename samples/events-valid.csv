@@ -1,0 +1,4 @@
+event_id,title,event_date,capacity,registered
+EVT-001,Introduction to SQL,2026-11-14,30,24
+EVT-002,Data quality workshop,2026-11-21,20,18
+EVT-003,Knowledge sharing meetup,2026-12-05,45,32

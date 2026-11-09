@@ -1,0 +1,6 @@
+Please add this document to the catalogue:
+Title: Volunteer onboarding FAQ
+Owner: Petra Novak
+Reviewed: 2026-11-04
+This FAQ explains how new volunteers complete their registration and where to find the volunteer registration guide. Suggested tags: volunteers, onboarding.
+Please suggest a relationship to an existing resource if appropriate. Do not invent a URL.

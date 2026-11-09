@@ -1,0 +1,17 @@
+{
+  "resources": [
+    {"title":"Volunteer registration guide","type":"document","description":"How to register volunteers, explain required fields and handle duplicate submissions.","owner":"Petra Novak","reviewed_on":"2026-11-01","tags":["volunteers","onboarding"]},
+    {"title":"Volunteer registrations","type":"dataset","description":"Synthetic volunteer registrations. One record per volunteer and event; identified by registration_id.","owner":"Petra Novak","reviewed_on":"2026-10-28","tags":["volunteers","registrations"]},
+    {"title":"Autumn attendance report","type":"report","description":"Attendance totals by event, based on the attendance log. All figures are fictional.","owner":"Adam Kral","reviewed_on":"2026-10-30","tags":["attendance","reporting"]},
+    {"title":"Event schedule","type":"dataset","description":"Upcoming workshops with event_id, title, event_date, capacity and registered counts. The CSV Check uses this schema.","owner":"Lucia Urban","reviewed_on":"2026-11-02","tags":["events","planning"]},
+    {"title":"Event data dictionary","type":"document","description":"Definitions of the five event CSV fields and the rules for dates, IDs and participant counts.","owner":"Lucia Urban","reviewed_on":"2026-11-02","tags":["events","metadata"]},
+    {"title":"Attendance log","type":"dataset","description":"Synthetic check-in records used to calculate participation totals.","owner":"Adam Kral","reviewed_on":"2026-10-29","tags":["attendance","events"]},
+    {"title":"New organiser checklist","type":"document","description":"A short onboarding checklist: read the event guide, confirm the schedule and assign a registration owner.","owner":"Petra Novak","tags":["onboarding","planning"]},
+    {"title":"Workshop feedback","type":"dataset","description":"Anonymous fictional feedback: event identifier, rating and optional comment.","owner":"Tomas Benko","reviewed_on":"2026-10-25","tags":["feedback","events"]},
+    {"title":"Feedback collection guide","type":"document","description":"How to collect workshop feedback and interpret ratings without identifying respondents.","owner":"Tomas Benko","reviewed_on":"2026-10-25","tags":["feedback","metadata"]},
+    {"title":"Capacity planning report","type":"report","description":"Compares registrations with event capacity to identify fully booked workshops.","owner":"Lucia Urban","reviewed_on":"2026-11-03","tags":["planning","reporting"]},
+    {"title":"Document review policy","type":"document","description":"Each resource should have an owner and a last-reviewed date. Missing metadata should be completed by the responsible organiser.","owner":"Petra Novak","reviewed_on":"2026-10-20","tags":["metadata","governance"]},
+    {"title":"Knowledge sharing handbook","type":"document","description":"How the team names resources, chooses tags and links datasets to their documentation and reports.","owner":"","tags":["governance","onboarding"]}
+  ],
+  "relations": [[1,2,"describes"],[3,6,"derived from"],[5,4,"describes"],[7,1,"related to"],[9,8,"describes"],[10,4,"derived from"],[12,11,"related to"]]
+}

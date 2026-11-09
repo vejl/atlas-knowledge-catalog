@@ -1,0 +1,5 @@
+event_id,title,event_date,capacity,registered
+EVT-001,Introduction to SQL,2026-11-14,30,24
+EVT-001,Duplicate event,2026-11-21,20,18
+EVT-003,,2026-02-30,-5,ten
+EVT-004,Fully booked workshop,2026-12-05,10,14

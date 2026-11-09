@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Atlas is a local-first catalogue for documents, datasets and the knowledge connecting them.">
+  <title>Atlas — Team knowledge, connected</title>
+  <link rel="icon" href="/static/mark.svg?v=mono-1" type="image/svg+xml">
+  <link rel="preload" href="/static/fonts/ibm-plex-sans-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="stylesheet" href="/static/monochrome.css?v=sharing-11">
+  <script type="module" src="/static/app.js?v=sharing-11"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#catalog" aria-label="Atlas home"><img src="/static/mark.svg?v=mono-1" width="35" height="35" alt=""><span>atlas<span class="brand-dot">.</span></span></a>
+      <div class="workspace-label">TEAM WORKSPACE</div>
+      <div class="workspace"><span class="workspace-avatar">N</span><span>Northstar Collective<small>Demo workspace</small></span></div>
+      <nav aria-label="Main navigation">
+        <a href="#catalog" data-page="catalog"><span data-icon="catalog"></span>Catalogue<span class="nav-count" id="nav-count">12</span></a>
+        <a href="#csv" data-page="csv"><span data-icon="check"></span>CSV check</a>
+        <a href="#ai" data-page="ai"><span data-icon="spark"></span>AI assistant<span class="tiny-label">BETA</span></a>
+      </nav>
+      <div class="sidebar-note"><span class="note-symbol" data-icon="arrow"></span><strong>A little context goes a long way.</strong><p>Give every resource a purpose, an owner and a connection.</p></div>
+      <div class="local-status"><span class="status-dot"></span><span>Running locally<small>Your catalogue stays on this device</small></span></div>
+      <div class="sidebar-footer">ATLAS <span>v1.0</span></div>
+    </aside>
+    <div class="main-shell">
+      <header class="topbar"><div><span class="breadcrumb">Workspace</span><span class="crumb-divider">/</span><span id="breadcrumb-current">Catalogue</span></div><div class="topbar-right"><span class="demo-indicator">Synthetic demo data</span><span class="user-avatar" aria-label="Demo organiser">NC</span></div></header>
+      <main id="main-content" tabindex="-1"></main>
+      <footer class="main-footer"><span>A clearer picture of what your team knows.</span><span>Built with Python & SQLite <span class="footer-dot">·</span> Local first</span></footer>
+    </div>
+  </div>
+  <dialog id="resource-dialog" aria-labelledby="dialog-title"><div id="dialog-content"></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
