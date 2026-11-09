@@ -166,7 +166,7 @@ The important code is small and separated by responsibility:
 | System prompt and provider call | `atlas/ai.py` |
 | UI | `static/index.html`, `static/styles.css`, `static/app.js` |
 
-See [the data model](docs/architecture.md), [the Slovak learning guide](docs/learning-sk.md) and [the demo script](docs/demo.md).
+See [the data model](docs/architecture.md) and [the demo script](docs/demo.md).
 
 ### HTTP interfaces
 
